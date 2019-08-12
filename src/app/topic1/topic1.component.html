@@ -1,0 +1,11 @@
+<h2 *ngIf="state2; else alternative">This is the first header</h2>
+
+<ng-template #alternative>
+  <h3>This is the second header</h3>
+</ng-template>
+
+<ng-container [ngSwitch]="state1">
+  <p *ngSwitchCase="'AB'">This is AB</p>
+  <p *ngSwitchCase="'BC'">This is BC</p>
+  <p *ngSwitchDefault>This is default</p>
+</ng-container>
