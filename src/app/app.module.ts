@@ -13,6 +13,8 @@ import { DisablerDirective } from './disabler.directive';
 import { OtherPipePipe } from './other-pipe.pipe';
 import { AbcPipePipe } from './_pipes/abc-pipe.pipe';
 import { AnotherCurrencyPipe } from './another-currency.pipe';
+import { Topic6Component } from './topic6/topic6.component';
+import { ContentComponent } from './content/content.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { AnotherCurrencyPipe } from './another-currency.pipe';
     DisablerDirective,
     OtherPipePipe,
     AbcPipePipe,
-    AnotherCurrencyPipe
+    AnotherCurrencyPipe,
+    Topic6Component,
+    ContentComponent
   ],
   imports: [
     BrowserModule
