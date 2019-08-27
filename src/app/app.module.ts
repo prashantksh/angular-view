@@ -15,6 +15,7 @@ import { AbcPipePipe } from './_pipes/abc-pipe.pipe';
 import { AnotherCurrencyPipe } from './another-currency.pipe';
 import { Topic6Component } from './topic6/topic6.component';
 import { ContentComponent } from './content/content.component';
+import { Topic7Component } from './topic7/topic7.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ContentComponent } from './content/content.component';
     AbcPipePipe,
     AnotherCurrencyPipe,
     Topic6Component,
-    ContentComponent
+    ContentComponent,
+    Topic7Component
   ],
   imports: [
     BrowserModule

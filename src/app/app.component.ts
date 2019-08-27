@@ -13,4 +13,9 @@ import {
 })
 export class AppComponent {
   title = 'app02';
+  field = 'Hi there from Parent!';
+
+  parentHandler(args) {
+    console.log('Parent Handler Called', args);
+  }
 }
