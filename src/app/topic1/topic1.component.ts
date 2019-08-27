@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./topic1.component.css']
 })
 export class Topic1Component implements OnInit {
-  state1 = 'AB';
-  state2 = true;
+  state1 = 'ZX';
+  state2 = false;
 
   constructor() {}
 

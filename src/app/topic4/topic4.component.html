@@ -2,6 +2,8 @@
 
 <p>{{ description | titlecase }}</p>
 
-<h2>Today is {{ today | date: 'long' | uppercase }}</h2>
+<h2>Today is {{ today | date: 'dd-MMMM-yyyy' | uppercase }}</h2>
 
-<h4>{{ amount | myCurrency }}</h4>
+<h4>{{ amount | anotherCurrency: 'X' }}</h4>
+
+<h1>{{ dummy | abcPipe: '1,2,3,4' }}</h1>

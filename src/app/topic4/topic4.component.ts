@@ -11,6 +11,7 @@ export class Topic4Component implements OnInit {
   description = 'this is the description';
   today = new Date();
   amount = 1200.234566;
+  dummy = 'XYZ';
 
   constructor() {}
 

@@ -10,6 +10,9 @@ import { Topic5Component } from './topic5/topic5.component';
 import { TesterDirective } from './tester.directive';
 import { MyCurrencyPipe } from './my-currency.pipe';
 import { DisablerDirective } from './disabler.directive';
+import { OtherPipePipe } from './other-pipe.pipe';
+import { AbcPipePipe } from './_pipes/abc-pipe.pipe';
+import { AnotherCurrencyPipe } from './another-currency.pipe';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { DisablerDirective } from './disabler.directive';
     Topic5Component,
     TesterDirective,
     MyCurrencyPipe,
-    DisablerDirective
+    DisablerDirective,
+    OtherPipePipe,
+    AbcPipePipe,
+    AnotherCurrencyPipe
   ],
   imports: [
     BrowserModule

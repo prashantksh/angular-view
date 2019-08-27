@@ -15,10 +15,15 @@ export class Topic2Component implements OnInit, AfterViewInit {
   @ViewChild('anotherHeader', { static: false }) header: ElementRef;
 
   ngAfterViewInit() {
+    console.log('AfterViewInit', this.header);
     this.header.nativeElement.style.color = 'Red';
   }
 
-  constructor() {}
+  constructor() {
+    console.log('Constructor', this.header);
+  }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log('OnInit', this.header);
+  }
 }
